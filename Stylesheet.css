@@ -1,0 +1,32 @@
+body {
+    margin:auto;
+    background-color: rgb(116, 116, 116);
+}
+
+.banner {
+    color: rgb(193, 229, 245);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-flex;
+    font-family: 'Nunito';
+    font-weight: bold;
+    margin-left: 36.5%;
+    margin-right: auto;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(105, 105, 105);
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a{
+    color: rgb(193, 229, 245);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-family:'Nunito';
+    font-weight: bold;
+}
