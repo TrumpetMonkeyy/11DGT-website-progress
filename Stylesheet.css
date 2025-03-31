@@ -1,32 +1,112 @@
-body {
-    margin:auto;
-    background-color: rgb(116, 116, 116);
+body{
+    margin: auto;
+    background-color: rgb(249, 239, 191);
 }
 
-.banner {
-    color: rgb(193, 229, 245);
+.banner_modern_day h1{
+    color: rgb(73, 73, 73,);
     text-decoration: none;
     padding: 15px;
-    display: inline-flex;
+    display: block; 
     font-family: 'Nunito';
     font-weight: bold;
-    margin-left: 36.5%;
+    margin-left: 41%;
     margin-right: auto;
+}
 
+.banner_keyboards h1{
+    color: rgb(73, 73, 73,);
+    text-decoration: none;
+    padding: 15px;
+    display: block; 
+    font-family: 'Nunito';
+    font-weight: bold;
+    margin-left: 41%;
+    margin-right: auto;
+}
+
+.banner_typewriters h1{
+    color: rgb(73, 73, 73,);
+    text-decoration: none;
+    padding: 15px;
+    display: block; 
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner h1{
+    color: rgb(73, 73, 73,);
+    text-decoration: none;
+    padding: 15px;
+    display: block; 
+    font-family: 'Nunito';
+    font-weight: bold;
+    margin-left: 35%;
 }
 
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(213, 205, 165);
     padding: 0px;
     margin: 0px;
+    display: inline-block;
+    width: 100%;
 }
 
 .navbar a{
-    color: rgb(193, 229, 245);
+    color: rgb(73, 73, 73);
     text-decoration: none;
     padding: 15px;
-    display: block;
+    display: inline-block;
     font-family:'Nunito';
     font-weight: bold;
+    margin-left: 13.5%;
+
+}
+
+p{
+    color: rgb(73, 73, 73);
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Nunito';
+    display: inline-block;
+    font-size: large;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:rgb(213, 205, 165) ;
+    border-radius: 15px;
+}
+
+img {
+    border-style: solid;
+    border-color: rgb(213, 205, 165);
+    border-radius: 15px;    
+}
+
+.wball {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home_imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.twriter{
+    margin-left: 360px;
+}
+
+.no_outline img{
+    border-style: none;
+    margin-left: 15.5%;
+}
+
+.modern_keyboard img {
+    margin-left: 23.6%;
+    width: 800px;
 }
