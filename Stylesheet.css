@@ -3,38 +3,6 @@ body{
     background-color: rgb(249, 239, 191);
 }
 
-.banner_modern_day h1{
-    color: rgb(73, 73, 73,);
-    text-decoration: none;
-    padding: 15px;
-    display: block; 
-    font-family: 'Nunito';
-    font-weight: bold;
-    margin-left: 41%;
-    margin-right: auto;
-}
-
-.banner_keyboards h1{
-    color: rgb(73, 73, 73,);
-    text-decoration: none;
-    padding: 15px;
-    display: block; 
-    font-family: 'Nunito';
-    font-weight: bold;
-    margin-left: 41%;
-    margin-right: auto;
-}
-
-.banner_typewriters h1{
-    color: rgb(73, 73, 73,);
-    text-decoration: none;
-    padding: 15px;
-    display: block; 
-    font-family: 'Nunito';
-    font-weight: bold;
-    text-align: center;
-}
-
 .banner h1{
     color: rgb(73, 73, 73,);
     text-decoration: none;
@@ -43,6 +11,16 @@ body{
     font-family: 'Nunito';
     font-weight: bold;
     margin-left: 35%;
+}
+
+.banner h3{
+    color: rgb(73, 73, 73,);
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: center;
 }
 
 .navbar ul{
